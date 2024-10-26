@@ -1,0 +1,30 @@
+*::-webkit-scrollbar {
+    width: 8px;
+  }
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+*::-webkit-scrollbar-thumb {
+    background: #000000;
+  }
+*::-webkit-scrollbar-thumb:hover {
+    background: #3b3c3d;
+  }
+  
+
+.adminComp::-webkit-scrollbar {
+    height: 4px;
+  }
+.adminComp::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+.adminComp::-webkit-scrollbar-thumb {
+    background: #a5a5a5;
+  }
+.adminComp::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+  }
+
+.pagenation{
+  justify-content: space-evenly;
+}

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-satoshi font-normal text-base text-body bg-whiten relative z-1;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .no-scrollbar::-webkit-scrollbar-track {
+    background: #24303f;
+  }
+  .no-scrollbar::-webkit-scrollbar-thumb {
+    background: #42556d;
+  }
+  .no-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #758ca8;
+  }
+}

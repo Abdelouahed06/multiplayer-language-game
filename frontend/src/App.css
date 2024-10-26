@@ -1,0 +1,84 @@
+.circl{
+    background-color: brown;
+    width: 10px;
+    height: 10px;
+}
+
+.MessagesDiv::-webkit-scrollbar {
+    width: 10px;
+  }
+.MessagesDiv::-webkit-scrollbar-track {
+    background: #141414;
+  }
+.MessagesDiv::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+    cursor: pointer;
+  }
+.MessagesDiv::-webkit-scrollbar-thumb:hover {
+    background: #525151;
+  }
+
+.MessagesDiv p{
+  cursor: pointer;
+}
+
+  .tooltip_l{
+    font-size: 0.8em;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    color: #ffffff;
+    background-color: #F5F5F5;
+    padding: 0.8em 1em;
+    transform: translateX(-50%);
+    border-radius: 0.5em;
+    top: 80px;
+    left: 109px;
+
+  }
+  .tooltip_l:before {
+    content: "";
+    position: absolute;
+    border-bottom: 1.25em solid #F5F5F5;
+    border-left: 1.25em solid transparent;
+    border-right: 1.25em solid transparent;
+    transform: translateX(10%);
+    left: 15px;
+    top: -15px;
+  }
+
+  .tooltip_r{
+    font-size: 0.8em;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    color: #ffffff;
+    background-color: #F5F5F5;
+    padding: 0.8em 1em;
+    transform: translateX(-50%);
+    border-radius: 0.5em;
+    top: 80px;
+    right: -39px;
+
+  }
+  .tooltip_r:before {
+    content: "";
+    position: absolute;
+    border-bottom: 1.25em solid #F5F5F5;
+    border-left: 1.25em solid transparent;
+    border-right: 1.25em solid transparent;
+    transform: translateX(10%);
+    right: 20px;
+    top: -15px;
+  }
+
+.profile_Modal:before {
+    content: "";
+    position: absolute;
+    border-bottom: 1.25em solid #F5F5F5;
+    border-left: 1.25em solid transparent;
+    border-right: 1.25em solid transparent;
+    transform: translateX(10%);
+    left: 20px;
+    top: -20px;
+  }
